@@ -13,12 +13,12 @@ function init(bundle, parent, options = {}) {
   const buttonsPanel = new Surface(
     400,
     550,
-    Surface.SurfaceShape.Cylinder
+    Surface.SurfaceShape.Flat
   );
 
   buttonsPanel.setAngle(
-    -0.6,
-    0.1
+    -0.4,
+    0.2
   )
 
   r360.renderToSurface(
@@ -33,8 +33,8 @@ function init(bundle, parent, options = {}) {
   );
 
   infoPanel.setAngle(
-   Math.PI, /* yaw angle */
-  0,  /* pitch angle */
+   0.4, /* yaw angle */
+  0.2,  /* pitch angle */
 
   )
 
